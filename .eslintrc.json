@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": "standard",
+  "globals": {
+    "Atomics": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "eqeqeq": "warn",
+    "no-unused-vars": "off",
+    "padded-blocks": "off",
+    "newline-per-chained-call": "error"
+  }
+}
